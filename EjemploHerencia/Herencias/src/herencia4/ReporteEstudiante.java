@@ -52,8 +52,8 @@ public class ReporteEstudiante extends Reporte {
                     d.getNombre(), d.getMatricula());
 
         }
-        cadena = String.format("%s\nEl promedio de Matricula es: \n\n"
-                + "%.3f", cadena, obtenerPromedioMatriculas());
+        cadena = String.format("%s\nEl promedio de Matricula es:"
+                + "%.3f\n", cadena, obtenerPromedioMatriculas());
         return cadena;
     }
 

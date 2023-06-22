@@ -54,8 +54,8 @@ public class ReporteDocente extends Reporte {
                     d.getNombre(), d.getSueldo());
 
         }
-        cadena = String.format("%s\nEl promedio de sueldos es: \n\n"
-                + "%.3f", cadena, obtenerPromedioSueldos());
+        cadena = String.format("%s\nEl promedio de sueldos es:"
+                + "%.3f\n", cadena, obtenerPromedioSueldos());
         return cadena;
     }
 

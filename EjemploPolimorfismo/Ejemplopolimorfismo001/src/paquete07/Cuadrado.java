@@ -9,6 +9,6 @@ package paquete07;
  *
  * @author reroes
  */
-public class Cuadrado {
+public class Cuadrado extends Figura{
        
 }
